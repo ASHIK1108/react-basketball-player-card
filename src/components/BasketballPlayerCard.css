@@ -1,0 +1,42 @@
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .player-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .player-position {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .player-stats {
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  .player-stats p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .player-card {
+      width: 100%;
+    }
+  }
+  
